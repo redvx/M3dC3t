@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "dev.madcat.m3dc3t.mixin.mixins",
+  "refmap": "mixins.m3dc3t.refmap.json",
+  "mixins": [
+    "MixinBlockLiquid",
+    "MixinEntityPlayer",
+    "MixinEntityRenderer",
+    "MixinItemRenderer",
+    "MixinFontRenderer",
+    "MixinGuiScreen",
+    "MixinGuiNewChat",
+    "MixinRenderPlayer",
+    "MixinRenderEnderCrystal",
+    "MixinMinecraft",
+    "MixinModelPlayer",
+    "MixinEntityPlayerSP",
+    "MixinNetworkManager",
+    "MixinRendererLivingEntity",
+    "MixinPlayerControllerMP",
+    "MixinLocaleFont",
+    "MixinWorld",
+    "MixinEntity",
+    "MixinMovementInputFromOptions",
+    "MixinLayerBipedArmor",
+    "MixinTileEntityEnchantmentTableRenderer",
+    "accessors.IC00Handshake",
+    "accessors.IServerAddress"
+  ]
+
+}
